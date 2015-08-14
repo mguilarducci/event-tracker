@@ -1,0 +1,18 @@
+{
+	"camelcase": true,
+	"curly": true,
+	"strict": true,
+	"eqeqeq": true,
+	"indent": 4,
+	"noempty": true,
+	"quotmark": "single",
+	"undef": true,
+	"unused": true,
+	"devel": true,
+	"eqnull": true,
+	"multistr": true,
+	"validthis": true,
+	"browser": true,
+	"jquery": true,
+	"node": true
+}
