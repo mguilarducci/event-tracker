@@ -3,7 +3,7 @@
 module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
 
-	var files = ['Gruntfile.js', 'index.js'],
+	var files = ['Gruntfile.js', 'index.js', 'lib/**'],
 		testFiles = ['test/test-*.js'];
 
 	grunt.initConfig({
@@ -34,8 +34,7 @@ module.exports = function(grunt) {
 		mochaTest: {
 			src: testFiles,
 			options: {
-				reporter: 'spec',
-				require: ['index.js', 'should']
+				reporter: 'spec'
 			}
 		}
 	});
