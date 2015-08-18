@@ -8,7 +8,8 @@ describe('Intercom tracker', function() {
 	var options = {
 			appId: 'appId',
 			appTestId: 'appTestId',
-			secretKey: 'secretKey'
+			secretKey: 'secretKey',
+			apiKey: 'api-key'
 		},
 		intercom = new IntercomTracker(options);
 
