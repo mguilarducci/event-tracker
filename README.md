@@ -49,5 +49,5 @@ eventTracker.createEvent('intercom', 'event-name', {
   data1: 'custom data 1',
   // ...
   dataN: 'custom data n'
-}
+});
 ```
