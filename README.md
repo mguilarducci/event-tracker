@@ -46,8 +46,12 @@ console.log(identifiers);
 eventTracker.createEvent('intercom', 'event-name', {
   userId: 'your-application-user-id', 
   email: 'your-application-user-email',
-  data1: 'custom data 1',
-  // ...
-  dataN: 'custom data n'
+  metadata: {
+  	custom_data_1: 'value',
+  	custom_data_2: 'value',
+  	custom_data_3: 'value',
+  	custom_data_4: 'value',
+  	custom_data_5: 'value'
+  }
 });
 ```
